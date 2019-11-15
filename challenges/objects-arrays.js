@@ -102,7 +102,7 @@ console.log(contactInfo);
 const unisWithUni = [];
 graduates.forEach(function(items){
   if(items.university.includes('Uni') === true){
-    return unisWithUni.push(graduates[items])
+    return unisWithUni.push(items);
   }
 })
 console.log(unisWithUni);
